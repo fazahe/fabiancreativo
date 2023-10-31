@@ -1,0 +1,44 @@
+// MODO DARK //
+@media (prefers-color-scheme: dark)
+    html[data-theme="dark"]
+        --background-color #292929
+        --background-color-sec #000
+        --background-color-three #292929
+        --background-color-four #1d1d1d
+        --background-header rgba(0,0,0,0.5)
+        --color-reverse #fff
+        --color-logo invert(100%)
+        --images-filter grayscale(0.5)
+
+// MODO LIGHT //
+@media (prefers-color-scheme: light)
+    html[data-theme="ligth"]
+        --background-color #999D9E
+        --background-color-sec #fff
+        --background-color-three #F7F6F2
+        --background-color-four #F7F6F2
+        --background-header rgba(255,255,255,0.7)
+        --color-reverse #292929
+        --color-logo invert(0%)
+        --images-filter grayscale(0)
+
+// SELECCIONABLES //
+html[data-theme="light"]
+    --background-color #999D9E
+    --background-color-sec #fff
+    --background-color-three #F7F6F2
+    --background-color-four #F7F6F2
+    --background-header rgba(255,255,255,0.5)
+    --color-reverse #292929
+    --color-logo invert(0%)
+    --images-filter grayscale(0)
+
+html[data-theme="dark"]
+    --background-color #292929
+    --background-color-sec #000
+    --background-color-three #292929
+    --background-color-four #1d1d1d
+    --background-header rgba(0,0,0,0.5)
+    --color-reverse #fff
+    --color-logo invert(100%)
+    --images-filter grayscale(0.5) 
